@@ -8,9 +8,6 @@ item string(100)
 Date date
 amount int(11)
 
-NOTE: keep in mind that Hibernate session is not thread safe,
-to make it threadsafe you can use ThreadLocal.
-
 Then open HibernateConfig.java file from configure folder,
 set your "username" and "password" for your database(company).
 
